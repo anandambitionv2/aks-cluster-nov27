@@ -1,10 +1,10 @@
 aks_clusters = {
   
    "aks_cluster_fluxcd-stapl" = {
-    name                = "aks-cluster-enterprise"
+    name                = "aks-cluster-fluxcd-stapl"
     location            = "centralindia"
     resource_group_name = "aks-rg"
-    dns_prefix          = "aks-cluster-fluxcd-legacy"
+    dns_prefix          = "aks-cluster-fluxcd-stapl"
     identity_type       = "SystemAssigned"
     workload_identity_enabled = true
     node_provisioning_profile = {
